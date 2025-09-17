@@ -6,7 +6,7 @@
 }
 
 body {
- font-family: 'Rangile', sans-serif;
+ font-family: 'Nuixyber Pro', sans-serif;
     line-height: 1.6;
     scroll-behavior: smooth;
 }
@@ -22,6 +22,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1000;
+    
 }
 
 .logo {
@@ -32,6 +33,7 @@ header {
 nav {
     display: flex;
     align-items: center;
+
 }
 
 .nav-links {
@@ -55,6 +57,7 @@ nav {
 /* Hamburger */
 /* Hamburger menü sadece mobilde görünür */
 .hamburger {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,7 +156,7 @@ footer {
 /* GENEL STİL */
 #anasayfa {
   height: 100vh;
-  background: url(0e5891064f22e6f78b911d65078a56ac.png);
+  background: url(aile3.png);
   background-size: cover;
   background-position: center 50%; /* Buradaki %30'u isteğine göre artırabilir ya da azaltabilirsin */
   background-repeat: no-repeat;
@@ -163,6 +166,7 @@ footer {
   color: white;
   text-align: center;
   position: relative;
+  
 }
 
 
@@ -181,7 +185,7 @@ footer {
   z-index: 2;
   font-size: 48px;
   padding: 20px;
- font-family: somatic,sans-serif;                
+font-family: 'Faith Hope', sans-serif;               
 }
 
 /* Mobil uyum */
@@ -284,6 +288,7 @@ html {
   transition: background-color 0.3s ease;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
 font-family: 'Cityweek', sans-serif;
+font-family: 'Faith Hope', sans-serif;
 }
 
 .btn:hover {
@@ -312,7 +317,7 @@ font-family: 'Cityweek', sans-serif;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.05);
   overflow-wrap: break-word;
-
+font-family: 'Faith Hope', sans-serif;
 }
 
 .selin-container {
@@ -390,6 +395,7 @@ font-family: 'Cityweek', sans-serif;
   margin-bottom: 3rem;
   color: #2e2e2e;
   font-weight: 700;
+  font-family: 'Faith Hope', sans-serif;
 }
 
 .icerik-flex {
@@ -468,18 +474,21 @@ font-family: 'Cityweek', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: #fef5f5;       /* İstersen logo renklerine uygun bir renk */
-   font-family: 'Playfair Display', serif;
+  
+   font-family: 'Nuixyber Pro', sans-serif;
   font-style: italic;
 
   user-select: none;    /* Yazının seçilmesini engeller, opsiyonel */
 }
 /* Hakkımızda Bölümü */
 #hakkimizda {
+  font-family: 'Faith Hope', sans-serif;
   padding: 5rem 1rem;
   background: linear-gradient(145deg, #fefefe, #f0f4f8);
 }
 
 .about-container {
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -492,14 +501,15 @@ font-family: 'Cityweek', sans-serif;
 .about-text {
   flex: 1;
   min-width: 300px;
+  
 }
 
 .about-text h2 {
   font-size: 2.8rem;
   margin-bottom: 1rem;
   color: #2e2e2e;
-  font-family: 'Playfair Display', serif; /* Zarif font */
-  font-style: italic;
+  font-family: 'Faith Hope', sans-serif;/* Zarif font */
+  
 }
 
 .about-text p {
@@ -541,6 +551,8 @@ font-family: 'Cityweek', sans-serif;
   background: linear-gradient(145deg, #fdf6f0, #f0f4f8); /* İsteğe bağlı */
   border-radius: 20px;
   overflow: hidden; /* Görsel taşarsa kes */
+font-family: 'Faith Hope', sans-serif;
+  color: #511a0f;
 }
 
 #sertifikalar::before {
@@ -551,10 +563,31 @@ font-family: 'Cityweek', sans-serif;
   transform: translateX(-50%);
   width: 600px; /* Çıkartma boyutu */
   height: 600px;
-  background: url('ee2517592983fb5bfe8e83e3eb17c614.png') no-repeat center/contain;
-  opacity: 0.07; /* Saydamlık (0 ile 1 arası) */
+  background: url('oturanaile.png') no-repeat center/contain;
+  opacity: 0.5; /* Saydamlık (0 ile 1 arası) */
   z-index: 0;
+
 }
+
+
+#selin::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px; /* Çıkartma boyutu */
+  height: 600px;
+  background: url('öğrçocuk.png') no-repeat center/contain;
+  opacity: 0.3; /* Saydamlık (0 ile 1 arası) */
+  z-index: 0;
+
+}
+
+
+
+
+
 
 .sertifikalar-container {
   position: relative;
@@ -852,6 +885,7 @@ body, html {
     list-style: none;
     padding: 0;
     margin: 0;
+  
 }
 
 .nav-links.active {
@@ -861,6 +895,7 @@ body, html {
 
 .nav-links li {
     margin: 20px 0;
+
 }
 
 .nav-links a {
@@ -868,6 +903,7 @@ body, html {
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s;
+ 
 }
 
 .nav-links a:hover {
@@ -879,6 +915,7 @@ body, html {
     display: flex;
     flex-direction: column;
     z-index: 1100;
+
 }
 
 .hamburger .bar {
@@ -887,6 +924,7 @@ body, html {
     background-color: white;
     margin: 4px 0;
     transition: 0.4s;
+   
 }
 #icerik {
   position: relative;
@@ -900,13 +938,14 @@ body, html {
   left: 50%;
   width: 500px;
   height: 500px;
-  background-image: url("185bf75423376c75cb182e52d7699201.png") ; /* senin çıkartman */
+  background-image: url("çocuk.png") ; /* senin çıkartman */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.3; /* Saydamlık */
   transform: translate(-50%, -50%);
   z-index: 0;
+  
 } 
 
 /* Mevcut içeriği öne çıkar */
@@ -916,7 +955,8 @@ body, html {
 }
 .hero-content h1 {
   text-align: center;
- font-family: 'Lugrasimo', sans-serif;
+  font-family: 'Lugrasimo', sans-serif;
+
                                                 
 }
 #anasayfa h1 {
@@ -926,7 +966,7 @@ font-family: 'RONALDI GUJE', sans-serif;
                                    
 }
 #anasayfa p {
-font-family: 'Rangile', sans-serif;
+font-family: 'Faith Hope', sans-serif;
 }
 footer p{
   font-family: poppins,sans-serif;
